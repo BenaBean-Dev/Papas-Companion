@@ -4,13 +4,15 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e26070b9-2fb1-4256-8b42-0d2309639ad0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Papa_s_Companion.py</StartupFile>
+    <StartupFile>Papas_Companion.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>Papa's Companion</Name>
     <RootNamespace>Papa's Companion</RootNamespace>
+    <InterpreterId>CondaEnv|CondaEnv|PapasCompanion_env</InterpreterId>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,6 +24,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Papa_s_Companion.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="CondaEnv|CondaEnv|PapasCompanion_env" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
