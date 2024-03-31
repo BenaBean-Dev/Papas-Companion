@@ -1,0 +1,94 @@
+{
+	"game_name":"Pizzeria",
+    "game_number": 1,
+	"ranks": [
+        {
+            "rank_number": "1",
+            "rank_name": "Newbie",
+            "rank_points": 5,
+            "rank_tips": 5  //For games before points (pizzeria / burgeria)
+        }
+    ],
+    "customers": [
+        {
+            "customer_name": "Cooper",
+            "customer_group": "Scarlett and the shakers", //The in-universe group the customer belongs to
+            "customer_favourite_holiday": "Halloween",
+            "customer_unlock_rank": 5,  //Set to 0 for customers unlocked from the start
+            "customer_unlock_filler": true,
+            "customer_unlock_tutorial": false,
+            "customer_unlock_gold": false,   //Customer is unlocked when all other customers are at gold medal
+            "customer_local": true,
+            "customer_closer": false,
+            "customer_closer_day": "Monday",
+            "customer_stickers": [],
+            "customer_notes": []    //Additional notes to be displayed. I.E: Santa starting at Silver medal
+        }
+    ],
+    "chefs": [
+        "Roy",
+        "Joy"
+    ],
+    "stations": [
+        "Order",
+        "Topping",
+        "Bake",
+        "Cutting"
+    ],
+    "ingredients": [
+        {
+            "ingredient_name": "Pepperoni",
+            "ingredient_type": "Topping",
+            "ingredient_game_type": "Sliced meat", //Ingredient type according to the game (only in later games).
+            "ingredient_unlock_rank": 5,
+            "ingredient_unlock_tutorial": true,  //If the ingredient is unlocked after the tutorial.
+            "ingredient_holiday": "Halloween"
+        }
+    ],
+    "shop": {
+        "upgrades": [
+            {
+                "upgrade_name": "Doorbell",
+                "upgrade_cost": 30,
+                "upgrade_description": ""
+            }
+        ],
+        "lobby": [
+            {
+                "item_name": "Romano Poster",
+                "item_type": "Poster",
+                "item_cost": 5.50,
+                "item_bonus": "Waiting score",
+                "item_description": ""
+            }
+        ],
+        "clothing": [
+            {
+                "clothing_name": "Chef hat",
+                "clothing_cost": 500,
+                "clothing_description": ""
+            }
+        ]
+    },
+    "badges": [
+        {
+            "badge_name": "Name",
+            "badge_description": "Desc",
+            "badge_reward_tips": 50,
+            "badge_reward_tickets": 1
+        }
+    ],
+    "minigames": [
+        {
+            "name": "Burgerzilla",
+            "day": "Monday",
+            "featured_gameria": "Burgeria" 
+        }
+    ],
+    "holidays": [
+        {
+            "name": "Easter",
+            ""
+        }
+    ]
+}
